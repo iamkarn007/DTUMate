@@ -1,34 +1,33 @@
-*{
-  margin:0;
+* {
+  margin: 0;
 }
-
-.app{
+.App {
   background-color: #fafafa;
-
 }
-
-.app__header{
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
-  padding:20px;
+  padding: 20px;
   border-bottom: 1px solid lightgray;
   object-fit: contain;
   display: flex;
   justify-content: space-between;
-  font-family:' fantasy';
-  font-size: 20px;
-  
 }
-
-.app__headerimage{
-  
-  width: 100px;
-  height :50px;
+.app__postRight {
+  margin-left: 20px;
+}
+.app__headerImage {
   object-fit: contain;
-  
 }
-
-.app__signup{
+.app__signUp {
   display: flex;
-  flex-direction: column;
   text-align: center;
+  flex-direction: column;
+}
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
